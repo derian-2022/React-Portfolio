@@ -1,12 +1,12 @@
-import React from "react";
-import Info from "../../components/Info";
-import Stats from "../../components/Stats";
-import { FaDownload } from "react-icons/fa";
-import CV from "../../assets/Derian-Cv.pdf";
-import Skills from "../../components/Skills";
-import { resume } from "../../data";
-import ResumeItem from "../../components/Resumeitem";
-import "./about.css";
+import React from 'react';
+import Info from '../../components/Info';
+import Stats from '../../components/Stats';
+import { FaDownload } from 'react-icons/fa';
+import CV from '../../assets/Derian-Cv.pdf';
+import Skills from '../../components/Skills';
+import { resume } from '../../data';
+import ResumeItem from '../../components/ResumeItem';
+import './about.css';
 
 const About = () => {
   return (
@@ -58,7 +58,7 @@ const About = () => {
         <div className="resume__container grid">
           <div className="resume__data">
             {resume.map((val) => {
-              if (val.category === "experience") {
+              if (val.category === 'experience') {
                 return <ResumeItem key={val.id} {...val} />;
               }
             })}
@@ -66,7 +66,7 @@ const About = () => {
 
           <div className="resume__data">
             {resume.map((val) => {
-              if (val.category === "education") {
+              if (val.category === 'education') {
                 return <ResumeItem key={val.id} {...val} />;
               }
             })}
