@@ -5,8 +5,8 @@ import {
   FaPhoneSquareAlt,
   FaFacebookF,
   FaLinkedin,
-  FaYoutube,
-  FaDribbble,
+  FaGithub,
+  FaWhatsapp,
 } from 'react-icons/fa';
 
 import { FiSend } from 'react-icons/fi';
@@ -66,17 +66,17 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://www.youtube.com/channel/UCrFObMBgubkaz8IYppYkAYg"
+              href="https://github.com/derian-2022"
               className="contact__social-link"
             >
-              <FaYoutube />
+              <FaGithub />
             </a>
 
             <a
-              href="https://www.magdastore.co/"
+              href="https://api.whatsapp.com/send?phone="
               className="contact__social-link"
             >
-              <FaDribbble />
+              <FaWhatsapp />
             </a>
           </div>
         </div>
