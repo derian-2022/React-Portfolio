@@ -15,6 +15,9 @@ import Work3 from './assets/project-3.jpeg';
 import Work4 from './assets/project-4.jpeg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
+import Work7 from './assets/project-7.jpg';
+import Work8 from './assets/project-8.jpg';
+import Work9 from './assets/project-9.jpg';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -412,6 +415,90 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: 'https://derian2023.netlify.app',
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    img: Work7,
+    title: 'LandingCars',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Clone TESLA Astro',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Private',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Astro Moder Website',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://landingcars.netlify.app/#',
+      },
+    ],
+  },
+
+  {
+    id: 8,
+    img: Work8,
+    title: 'Backend E-commerce Meals',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Backend Meals',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Trello: Tareas del Proyecto : ',
+        desc: 'Private',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Node.js, Express, Postman, Nodemon, CORS, bcrypt ',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://meals-bso7.onrender.com/api/v1/restaurants',
+      },
+    ],
+  },
+
+  {
+    id: 9,
+    img: Work9,
+    title: 'Contries in DOM',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Contries',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Craeted Contries in DOM : ',
+        desc: 'Private',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React, DOM, Apis ',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://manejodom.netlify.app/',
       },
     ],
   },
