@@ -18,6 +18,9 @@ import Work6 from './assets/project-6.jpg';
 import Work7 from './assets/project-7.jpg';
 import Work8 from './assets/project-8.jpg';
 import Work9 from './assets/project-9.jpg';
+import Work10 from './assets/project-10.jpg';
+import Work11 from './assets/project-11.jpg';
+import Work12 from './assets/project-12.jpg';
 
 import Theme1 from './assets/purple.png';
 import Theme2 from './assets/red.png';
@@ -499,6 +502,90 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: 'https://manejodom.netlify.app/',
+      },
+    ],
+  },
+
+  {
+    id: 10,
+    img: Work10,
+    title: 'App Rick and Morty',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'App Comics',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Rick and Morty : ',
+        desc: 'Private',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React, DOM, Apis ',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://appderickandmortyderian.netlify.app/',
+      },
+    ],
+  },
+
+  {
+    id: 11,
+    img: Work11,
+    title: 'Blog in Next.js',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Blog',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Craeted Blog Vercel : ',
+        desc: 'Private',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Next.js, TypeScript, Vercel ',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://project-next-js-derian.vercel.app/blog',
+      },
+    ],
+  },
+
+  {
+    id: 12,
+    img: Work12,
+    title: 'Pokemon Random',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Pokemon Api',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Rndom Pokemons in DOM : ',
+        desc: 'Private',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React, DOM, Apis ',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'https://pokemonreactdom.netlify.app/',
       },
     ],
   },
