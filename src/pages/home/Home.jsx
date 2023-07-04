@@ -4,7 +4,12 @@ import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 import './home.css';
 
+//Translations
+import { useTranslation } from 'react-i18next';
+
 const Home = () => {
+  const [t, i18n] = useTranslation('global');
+
   return (
     <section className="home section grid">
       <img src={Profile} alt="" className="home__img" />
@@ -34,6 +39,9 @@ const Home = () => {
       </div>
 
       <div className="color__block"></div>
+      <button>ES</button>
+      <button>EN</button>
+      <button>PT</button>
     </section>
   );
 };

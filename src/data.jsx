@@ -411,7 +411,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'https://derian2023.netlify.ap',
+        desc: 'https://derian2023.netlify.app',
       },
     ],
   },
