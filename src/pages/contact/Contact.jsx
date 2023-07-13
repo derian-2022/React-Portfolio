@@ -34,9 +34,11 @@ const Contact = () => {
             <div className="info__item">
               <FaEnvelopeOpen className="info__icon" />
 
+              <span className="info__title">Mail</span>
               <div>
-                <span className="info__title">Mail me</span>
-                <h4 className="info__desc">derianaugustoarias@gmail.com</h4>
+                <a href="mailto:derianaugustoarias@gmail.com">
+                  <h4>derianaugustoarias@gmail.com</h4>
+                </a>
               </div>
             </div>
 
@@ -45,7 +47,7 @@ const Contact = () => {
 
               <div>
                 <span className="info__title">Call me</span>
-                <h4 className="info__desc">+57 310-2304860</h4>
+                <h4 className="info__desc">310-2304860</h4>
               </div>
             </div>
           </div>

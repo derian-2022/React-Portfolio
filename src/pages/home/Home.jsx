@@ -37,11 +37,6 @@ const Home = () => {
           </Link>
         </div>
       </div>
-
-      <div className="color__block"></div>
-      <button>ES</button>
-      <button>EN</button>
-      <button>PT</button>
     </section>
   );
 };
