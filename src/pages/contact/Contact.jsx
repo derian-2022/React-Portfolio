@@ -75,7 +75,7 @@ const Contact = () => {
             </a>
 
             <a
-              href="https://api.whatsapp.com/send?phone="
+              href="https://wa.me/3102304860?text=Hola%20Soy Derian%20Developer%20Web%20Colombiano%20FullStack" target="_blank"
               className="contact__social-link"
             >
               <FaWhatsapp />
